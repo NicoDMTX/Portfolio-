@@ -1,9 +1,32 @@
+@font-face {
+    font-family: 'FredokaOne';
+    src: url('../fonts//FredokaOne-Regular.ttf');
+}
+
 .form_container {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    font-family: 'FredokaOne';
+}
+
+.form_elements {
+    display: flex;
     flex-direction: column;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    background-color: #98a8f860;
+    box-shadow: 0 5px 45px rgb(0 0 0 / 10%);
+    transition: 1s;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+
+.form_elements:hover {
+    transform: translateY(-20px);
 }
 
 .contact_form {
@@ -23,5 +46,55 @@
 }
 
 span {
-    font-size: 20px;
+    font-size: 28px;
+    text-align: center;
+    color: #98a8f8;
+    font-weight: bold;
+    padding: 10px;
+    letter-spacing: 0.1rem;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.281);
 }
+
+input {
+    border: none;
+    background-color: #98a8f8;
+    border-bottom: 1px solid #778eff;
+    padding: 5px 10px;
+    color: #f1f1f1;
+    outline: none;
+    margin-bottom: 2px;
+}
+
+label {
+    font-size: large;
+    color: #98a8f8;
+    letter-spacing: .1rem;
+    padding: 2px;
+}
+
+textarea {
+    margin-top: 5px;
+    height: 150px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+button {
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    background: #98a8f8;
+    color: #f1f1f1;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'FredokaOne';
+}
+
+button:hover {
+    background:#f1f1f1 ;
+    color: #98a8f8;
+    font-weight: bold;
+}
+
