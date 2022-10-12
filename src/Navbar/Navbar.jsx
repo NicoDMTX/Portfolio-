@@ -29,7 +29,7 @@ export default function Navbar() {
     <>
     {checkWidth < 900 && (
       <button onClick={toggleNavFunc} className="floating-btn">
-        <img src={Menu} />
+        <FaHome className='home_icon' />
       </button>
     )}
      

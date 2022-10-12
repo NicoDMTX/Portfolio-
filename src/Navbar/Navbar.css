@@ -42,9 +42,18 @@ nav {
     position: absolute;
     top: 15px;
     left: 35px;
+    width: 64px;
+    height: 64px;
     border-radius: 50%;
-    background: #f1f1f1;
+    border: none;
+    background: radial-gradient(circle, rgba(152,168,248,1) 0%, rgba(188,206,248,1) 100%);
     cursor: pointer;
+}
+
+.home_icon {
+    color: white;
+    width: 36px;
+    height: 36px;
 }
 
 a {
