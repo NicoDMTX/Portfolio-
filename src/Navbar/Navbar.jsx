@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './Navbar.css'
 import Menu from '../assets/Home.png'
+import { FaHome, FaArrowAltCircleLeft, FaEnvelope, FaUserGraduate } from 'react-icons/fa';
 
 export default function Navbar() {
 
@@ -35,13 +36,13 @@ export default function Navbar() {
       <nav className={toggleNav ? "active" : ""}>
       {checkWidth < 900 && (
         <button onClick={toggleNavFunc} className="close-nav">
-          X
+          <FaArrowAltCircleLeft className='nav_arrow_icon'/>
         </button>
       )}
         <div className="tabs">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
+          <a href="#"><FaHome className='icons'/>Home</a>
+          <a href="#"><FaUserGraduate className='icons'/>About</a>
+          <a href="#"><FaEnvelope className='icons'/>Contact</a>
         </div>
   
       </nav>
