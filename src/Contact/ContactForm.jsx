@@ -4,11 +4,14 @@ import './ContactForm.css';
 export default function contactForm() {
   return (
     <div className="form_container">
+      <span>C'est parti !</span>
+      <span>Collaborons dans nos projets :</span>
         <form 
         name="contact" 
         className="contact_form" 
         method="POST" 
-        data-netlify="true" onSubmit="submit"
+        data-netlify="true" 
+
         >
           <input type="hidden" name="form-name" value="contact" />
           <label for="name">Nom: </label>

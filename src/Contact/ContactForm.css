@@ -1,6 +1,9 @@
 .form_container {
-    margin-left: 250px;
-    max-width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contact_form {
@@ -17,4 +20,8 @@
 
 .contact__form button {
     font-size: 1.2rem;
+}
+
+span {
+    font-size: 20px;
 }
