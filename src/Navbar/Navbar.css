@@ -57,6 +57,10 @@ nav {
     box-shadow: -2px 3px 20px 5px rgb(0 0 0 / 22%);
 }
 
+.floating-btn:hover .home_icon{
+    color: rgba(152,168,248,1);
+}
+
 .home_icon {
     color: white;
     width: 36px;

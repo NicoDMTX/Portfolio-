@@ -40,9 +40,9 @@ export default function Navbar() {
         </button>
       )}
         <div className="tabs">
-          <a href="#"><FaHome className='icons'/>Home</a>
-          <a href="#"><FaUserGraduate className='icons'/>About</a>
-          <a href="#"><FaEnvelope className='icons'/>Contact</a>
+          <a href="/home"><FaHome className='icons'/>Home</a>
+          <a href="/about"><FaUserGraduate className='icons'/>About</a>
+          <a href="/contact"><FaEnvelope className='icons'/>Contact</a>
         </div>
   
       </nav>
