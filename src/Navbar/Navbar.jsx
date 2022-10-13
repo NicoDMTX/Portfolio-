@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
-import './Navbar.css'
-import Menu from '../assets/Home.png'
+import styles from './Navbar.module.css'
+
 import { FaHome, FaArrowAltCircleLeft, FaEnvelope, FaUserGraduate } from 'react-icons/fa';
+import { GiFrance } from 'react-icons/gi';
 
 export default function Navbar() {
 
@@ -28,21 +29,26 @@ export default function Navbar() {
   return (
     <>
     {checkWidth < 900 && (
-      <button onClick={toggleNavFunc} className="floating-btn">
-        <FaHome className='home_icon' />
+      <button onClick={toggleNavFunc} className={styles.floating_btn}>
+        <FaHome className={styles.home_icon} />
       </button>
     )}
      
-      <nav className={toggleNav ? "active" : ""}>
+      <nav className={toggleNav ? styles.active : ''}>
       {checkWidth < 900 && (
-        <button onClick={toggleNavFunc} className="close-nav">
-          <FaArrowAltCircleLeft className='nav_arrow_icon'/>
+        <button onClick={toggleNavFunc} className={styles.close_nav}>
+          <FaArrowAltCircleLeft className={styles.nav_arrow_icon}/>
         </button>
       )}
-        <div className="tabs">
-          <a href="/home"><FaHome className='icons'/>Home</a>
-          <a href="/about"><FaUserGraduate className='icons'/>About</a>
-          <a href="/contact"><FaEnvelope className='icons'/>Contact</a>
+        <div className={styles.tabs}>
+          <a href="/"><FaHome className={styles.icons}/>Home</a>
+          <a href="/about"><FaUserGraduate className={styles.icons}/>About</a>
+          <a href="/contact"><FaEnvelope className={styles.icons}/>Contact</a>
+        </div>
+
+        <div className="langages">
+          <button className={styles.fr}><GiFrance className={styles.logo}/></button>
+          <button className={styles.en}></button>
         </div>
   
       </nav>

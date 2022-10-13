@@ -16,7 +16,7 @@ nav {
     font-family: 'FredokaOne';
 }
 
-.close-nav {
+.close_nav {
     position: relative;
     left: 85px;
     border-radius: 10px;
@@ -30,7 +30,7 @@ nav {
     margin-bottom: 10px;
 }
 
-.close-nav:hover {
+.close_nav:hover {
     background-color: #98A8F8;
     color: #FAF7F0;
 }
@@ -44,7 +44,7 @@ nav {
     transform: translateX(0%);
 }
 
-.floating-btn {
+.floating_btn{
     position: absolute;
     top: 15px;
     left: 35px;
@@ -57,7 +57,7 @@ nav {
     box-shadow: -2px 3px 20px 5px rgb(0 0 0 / 22%);
 }
 
-.floating-btn:hover .home_icon{
+.floating_btn:hover .home_icon{
     color: rgba(152,168,248,1);
 }
 
@@ -100,10 +100,18 @@ a:hover {
     a:nth-child(1) {
         border-top: 1px solid #f1f1f1;
     }
+
 }
 
 .icons {
     position: relative;
     top: 4px;
     right: 5px;
+}
+
+/** Langages **/
+
+
+.logo {
+    background: linear-gradient(90deg, rgba(19,56,249,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 59%, rgba(255,0,0,1) 100%); 
 }
