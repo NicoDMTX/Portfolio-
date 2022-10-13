@@ -12,7 +12,6 @@ export default function contactForm() {
           className="contact_form" 
           method="POST" 
           data-netlify="true" 
-
           >
             <input type="hidden" name="form-name" value="contact" />
             <label for="name">Nom: </label>

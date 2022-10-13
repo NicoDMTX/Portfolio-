@@ -58,7 +58,7 @@ span {
 input {
     border: none;
     background-color: #98a8f8;
-    border-bottom: 1px solid #778eff;
+    border: 1px solid #778eff;
     padding: 5px 10px;
     color: #f1f1f1;
     outline: none;
@@ -77,6 +77,8 @@ textarea {
     height: 150px;
     margin-bottom: 15px;
     outline: none;
+    border: 1px solid #778eff;
+    resize: none;
 }
 
 button {
