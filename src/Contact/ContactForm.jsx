@@ -3,7 +3,7 @@ import './ContactForm.css';
 
 export default function contactForm() {
   return (
-    <div className="form_container">
+    <div id="contact" className="form_container">
       <div className='form_elements'>
         <span>C'est parti !</span>
         <span>Collaborons dans nos projets :</span>
