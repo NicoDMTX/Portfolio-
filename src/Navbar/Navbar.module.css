@@ -67,7 +67,7 @@ nav {
     height: 36px;
 }
 
-a {
+.a {
     text-decoration: inherit;
     color: inherit;
     font-size: 36px;
@@ -80,7 +80,7 @@ a {
     -webkit-text-stroke: 0.2px rgb(0, 0, 0);
 }
 
-a:hover {
+.a:hover {
     background-color: #f1f1f1;
     color: #98A8F8;
     font-weight: bold;
@@ -97,7 +97,7 @@ a:hover {
         transform: translateX(-100%);
     }
 
-    a:nth-child(1) {
+    .a:nth-child(1) {
         border-top: 1px solid #f1f1f1;
     }
 
@@ -114,4 +114,23 @@ a:hover {
 
 .logo {
     background: linear-gradient(90deg, rgba(19,56,249,1) 0%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 59%, rgba(255,0,0,1) 100%); 
+    cursor: pointer;
+    color: #98A8F8;
+    width: 50px;
+    height: 50px;
 }
+
+.social_network {
+    width: 100px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.twitter_logo {
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+

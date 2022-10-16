@@ -2,21 +2,17 @@ import './App.css'
 import Navbar from './Navbar/Navbar'
 import ContactForm from './Contact/ContactForm'
 import Home from './Home/Home'
+import { Route, Routes} from "react-router-dom"
 
 function App() {
-  let component
-  switch (window.location.pathname) {
-    case "/contact":
-      component = <ContactForm />
-      break;
-    case "/home":
-      component = <Home />
-      break;
-  }
   return (
     <div className="App">
       <Navbar />
-      {component}
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<Home />} />
+        <Route path='/contact' element={<ContactForm />} />
+      </Routes>
     </div>
   )
 }
