@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'FredokaOne';
-    src: url('../fonts//FredokaOne-Regular.ttf');
+    font-family: 'Rajdhani';
+    src: url('../fonts/Rajdhani-Bold.ttf');
 }
 
 .form_container {
@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'FredokaOne';
+    font-family: 'Rajdhani';
     margin-left: 250px;
 }
 
@@ -18,7 +18,7 @@
     border: 1px solid rgba(255,255,255,0.4);
     border-right: 1px solid rgba(255,255,255,0.2);
     border-bottom: 1px solid rgba(255,255,255,0.2);
-    background: linear-gradient(128deg, rgba(205,213,255,1) 0%, rgba(152,168,248,1) 100%);
+    background: #e14631;
     box-shadow: 0 5px 45px rgb(0 0 0 / 10%);
     transition: 1s;
     width: 500px;
@@ -49,19 +49,18 @@
 .span {
     font-size: 28px;
     text-align: center;
-    color: #98a8f8;
+    color: #f1f1f1;
     font-weight: bold;
     padding: 10px;
     letter-spacing: 0.1rem;
-    -webkit-text-stroke: 0.5px #f1f1f1;
 }
 
 .input {
     border: none;
-    background-color: #98a8f8;
-    border: 1px solid #778eff;
+    background-color: #f1f1f1;
+    border: 1px solid #c4c4c4;
     padding: 5px 10px;
-    color: #f1f1f1;
+    color: #313638;
     outline: none;
     margin-bottom: 2px;
     cursor: pointer;
@@ -69,10 +68,9 @@
 
 .label {
     font-size: large;
-    color: #98a8f8;
+    color: #313638;
     letter-spacing: .1rem;
     padding: 2px;
-    -webkit-text-stroke: 0.5px #f1f1f1;
 }
 
 .textarea {
@@ -80,7 +78,6 @@
     height: 150px;
     margin-bottom: 15px;
     outline: none;
-    border: 1px solid #778eff;
     resize: none;
     cursor: pointer;
 }
@@ -90,12 +87,12 @@
     border-radius: 10px;
     height: 50px;
     border: none;
-    background: #98a8f8;
+    background: #313638;
     color: #f1f1f1;
     font-size: 24px;
     cursor: pointer;
     transition: 0.5s;
-    font-family: 'FredokaOne';
+    font-family: 'Rajdhani';
     box-shadow: 5px 5px 15px -8px rgb(0, 0, 0);
 }
 
@@ -118,7 +115,7 @@
 
 .button:hover {
     background:#f1f1f1 ;
-    color: #98a8f8;
+    color: #313638;
     font-weight: bold;
 }
 

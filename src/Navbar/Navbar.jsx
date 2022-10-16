@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import styles from './Navbar.module.css'
 import { Link } from "react-router-dom"
 
-import { FaHome, FaArrowAltCircleLeft, FaEnvelope, FaUserGraduate, FaTwitter } from 'react-icons/fa';
+import { FaHome, FaArrowAltCircleLeft, FaEnvelope, FaUserGraduate, FaTwitter, FaLinkedin, FaGithub, FaDiscord } from 'react-icons/fa';
 
 export default function Navbar() {
 
@@ -41,16 +41,16 @@ export default function Navbar() {
         </button>
       )}
         <div className={styles.tabs}>
-          <Link className={styles.a} to="/"><FaHome className={styles.icons}/>Home</Link>
+          <Link className={styles.a} to="/" ><FaHome className={styles.icons}/>Home</Link>
           <Link className={styles.a} to="/about"><FaUserGraduate className={styles.icons}/>About</Link>
           <Link className={styles.a} to="/contact"><FaEnvelope className={styles.icons}/>Contact</Link>
         </div>
 
         <div className={styles.social_network}>
           <a href="https://twitter.com/n_demontoux" className={styles.twitter_logo} target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-          <a href="https://twitter.com/n_demontoux" className={styles.twitter_logo} target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-          <a href="https://twitter.com/n_demontoux" className={styles.twitter_logo} target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-          <a href="https://twitter.com/n_demontoux" className={styles.twitter_logo} target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+          <a href="https://twitter.com/n_demontoux" className={styles.twitter_logo} target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://twitter.com/n_demontoux" className={styles.twitter_logo} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="https://twitter.com/n_demontoux" className={styles.twitter_logo} target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
         </div>
 
         <div className="langages">
