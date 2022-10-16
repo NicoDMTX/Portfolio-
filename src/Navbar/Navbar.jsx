@@ -41,8 +41,8 @@ export default function Navbar() {
         </button>
       )}
         <div className={styles.tabs}>
-          <Link className={styles.a} to="/" ><FaHome className={styles.icons}/>Home</Link>
-          <Link className={styles.a} to="/about"><FaUserGraduate className={styles.icons}/>About</Link>
+          <Link className={styles.a} to="/" ><FaHome className={styles.icons}/>Accueil</Link>
+          <Link className={styles.a} to="/about"><FaUserGraduate className={styles.icons}/>À propos</Link>
           <Link className={styles.a} to="/contact"><FaEnvelope className={styles.icons}/>Contact</Link>
         </div>
 

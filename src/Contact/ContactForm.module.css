@@ -18,7 +18,7 @@
     border: 1px solid rgba(255,255,255,0.4);
     border-right: 1px solid rgba(255,255,255,0.2);
     border-bottom: 1px solid rgba(255,255,255,0.2);
-    background: #e14631;
+    background: linear-gradient(145deg, rgba(225,70,49,1) 0%, rgb(199 107 94) 75%);
     box-shadow: 0 5px 45px rgb(0 0 0 / 10%);
     transition: 1s;
     width: 500px;
